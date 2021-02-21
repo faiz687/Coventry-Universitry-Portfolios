@@ -1,0 +1,31 @@
+ls -a
+mkdir 389COM
+ls
+cd 389COM
+Mkdir cli
+ls
+cd cli
+Pwd > text.txt
+cd
+ln -s /Users/389COM/cli/text.txt /Users/txt
+cat txt
+touch /Users/389COM/cli/fstab.txt
+cat /Users/389COM/cli/fstab.txt
+grep 'reference' /Users/389COM/cli/fstab.txt
+grep 'reference' /Users/389COM/cli/fstab.txt > /Users/389COM/cli/out.txt ;  cat /Users/389COM/cli/out.txt
+grep 'defaults' /Users/389COM/cli/fstab.txt > /Users/389COM/cli/out.txt ;  cat /Users/389COM/cli/out.txt\
+echo ls -la >  /Users/389COM/cli/my_ls
+chmod +x /Users/389COM/cli/my_ls ; sh /Users/389COM/cli/my_ls
+sh /Users/389COM/cli/my_ls  > /Users/389COM/cli/out.txt
+who > /Users/389COM/cli/who.txt
+ln -s /Users/389COM/cli /Users/
+ls cli
+man less
+man less > cli/less.txt ; cat /Users/cli/less.txt
+wget http://politespider.com/images/mozilla_logo.jpg /Users/389COM/cli
+man ls > /Users/389COM/cli/manls.txt
+tar -cvf /Users/389COM.tar /Users/389COM
+tar -cvzf  /Users/389COM.tar.gz /Users/389COM/
+tar -tvf /Users/389COM.tar > firsttar.txt
+tar -tvf /Users/389COM.tar.gz >> firsttar.txt
+ls -R /Users/389COM
